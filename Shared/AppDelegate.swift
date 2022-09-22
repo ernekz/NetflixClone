@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 config.delegateClass = SceneDelegate.self
                 return config
             }
-        fatalError("Unhandled scene role \(connectingSceneSession.role)")
+        fatalError("Unhandled scene roles \(connectingSceneSession.role)")
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
